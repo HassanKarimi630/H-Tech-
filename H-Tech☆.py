@@ -178,7 +178,7 @@ logo=("""
 █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
 
 def lines():
-	print(f'\033[0;95m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄       /033[1;32m""") 
+	print(f'\033[0;95m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄       /033[1;32m""") 
  
 loop = 0
 oks = []
@@ -212,7 +212,7 @@ def barie():
         riaz()
         return None
     if opt == '1':
-    	os.system('https://www.facebook.com/profile.php?id=100070283389809&mibextid=ZbWKwL')
+    	os.system('https://www.facebook.com/profile.php?id=100070283389809')
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
     
     
